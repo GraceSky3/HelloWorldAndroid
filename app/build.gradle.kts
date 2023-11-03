@@ -7,7 +7,9 @@ android {
     namespace = "com.example.helloworld"
     compileSdk = 33
 
-
+    viewBinding{
+        enable=true;
+    }
 
     defaultConfig {
         applicationId = "com.example.helloworld"
