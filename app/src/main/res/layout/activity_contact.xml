@@ -90,7 +90,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="35dp"
         android:minHeight="48dp"
-        android:text="Switch"
+        android:text="tiene email"
         app:layout_constraintStart_toEndOf="@+id/switchh"
         app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
 
@@ -103,5 +103,40 @@
         android:text="ToggleButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <RadioGroup
+        android:id="@+id/sexgroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchh">
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mujer" />
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:text="Hombre" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Saluda"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexgroup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
