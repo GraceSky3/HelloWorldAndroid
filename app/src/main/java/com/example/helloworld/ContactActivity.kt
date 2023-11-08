@@ -11,7 +11,7 @@ class ContactActivity : AppCompatActivity() {
     private lateinit var binding: ActivityContactBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //binding = ActivityContactBinding.inflate(layoutInflater) hacer invisible el email
+        binding = ActivityContactBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
        binding.switch1.setOnClickListener {
