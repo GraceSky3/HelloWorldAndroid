@@ -36,7 +36,3 @@ class UserNameActivity : AppCompatActivity() {
     }
 }
 
-/*opendisplayusernameactivityIntent.putExtra(
-                    DisplayUserNameActivity.Params.USERNAME.name,
-                    binding.username.text.toString()
-                )*/

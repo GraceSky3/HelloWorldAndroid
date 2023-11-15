@@ -22,5 +22,11 @@ class DisplayUserNameActivity : AppCompatActivity() {
 
         //cambiar el valor del la variable usernameText a la variable de la otra actividad
         binding.usernametext.text= username
+
+        //boton para volver para atras
+        binding.cerrar.setOnClickListener(){
+            finish() //metodo que te deja volver a la ventana anterior
+
+        }
     }
 }

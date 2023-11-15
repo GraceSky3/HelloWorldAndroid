@@ -13,12 +13,17 @@
         android:theme="@style/Theme.HelloWorld"
         tools:targetApi="31">
         <activity
+            android:name=".EstudianteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TextViewActivity"
+            android:exported="true" />
+        <activity
             android:name=".UserNameActivity"
             android:exported="true" />
         <activity
             android:name=".DisplayUserNameActivity"
             android:exported="true" />
-
         <activity
             android:name=".MenuActivity"
             android:exported="true">

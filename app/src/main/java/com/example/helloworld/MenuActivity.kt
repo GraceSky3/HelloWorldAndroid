@@ -12,9 +12,22 @@ class MenuActivity : AppCompatActivity() {
         binding = ActivityMenuBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //Actividad de contact
         binding.sendemail.setOnClickListener {
             val contactActivityIntent = Intent(this, ContactActivity::class.java)
             startActivity(contactActivityIntent)
+        }
+
+        //Actividad text view
+        binding.textviewA.setOnClickListener {
+            val textViewActivityIntent = Intent(this, TextViewActivity::class.java)
+            startActivity(textViewActivityIntent)
+        }
+
+        //Actividad calculadora
+        binding.calculator.setOnClickListener {
+            val calculatorTableActivityIntent = Intent(this, CalculatorTableActivity::class.java)
+            startActivity(calculatorTableActivityIntent)
         }
     }
 }
